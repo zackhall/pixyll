@@ -1,19 +1,13 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+### Zack Hall
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
+I am a web developer, Microsoft engineer working on the Windows Dev Center, and organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
 
-Thanks to the following:
+### Blog
 
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+This is a blog focused mostly on web development and JavaScript. The theme for this blog is based on the [Pixyll](https://github.com/johnotander/pixyll) open source project from [John Otander](http://johnotander.com).
