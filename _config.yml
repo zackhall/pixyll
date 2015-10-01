@@ -3,7 +3,7 @@ title:       Zack Hall
 email:       zackhall@outlook.com
 author:      Zack Hall
 description: "JavaScript talk"
-baseurl:     ""
+baseurl:     "/pixyll"
 url:         "http://zthall.com"
 
 # Google analytics
