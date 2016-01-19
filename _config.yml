@@ -20,9 +20,9 @@ show_social_icons:  false
 disqus_shortname:
 
 # Social icons
-github_username:
+github_username: zackhall
 stackoverflow_id:
-twitter_username:
+twitter_username: zthall
 google_plus_id:
 linkedin_username:
 angellist_username:
@@ -55,3 +55,4 @@ sass:
   compressed: true
 gems:
   - jekyll-sitemap
+  - jekyll-paginate
