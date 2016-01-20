@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
+![Zack Hall and Vivian Andreeva in Paris, France](/images/zack_hall_notre_dame.png)
+
 ### Zack Hall
 
-I am a web developer, Microsoft engineer working on the Windows Dev Center, and organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
+I am a JavaScript developer, Microsoft engineer working on Edge, and organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
 
 ### Blog
 
