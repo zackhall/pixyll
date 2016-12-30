@@ -1,0 +1,150 @@
+.home {
+  margin-top: -1rem;
+}
+
+.bio {
+  padding: 2rem 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.portfolio--item--browser {
+  border: 10px solid $dark-gold;
+  border-top: 35px solid $dark-gold;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 100%;
+
+  @media screen and (min-width: $viewport-medium) {
+    & {
+      width: 550px;
+      height: 760px;
+      padding: 0;
+    }
+  }
+
+  .portfolio--item--screenshot {
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding-top: calc(100% + 20px);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    @media screen and (min-width: $viewport-medium) {
+      & {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+      }
+    }
+  }
+
+  .portfolio--item__alternate & {
+    margin: 0 0 0 auto;
+  }
+}
+
+.portfolio--item--browser--buttons {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  background: #fff;
+  position: absolute;
+  top: -22.5px;
+
+  &::before,
+  &::after {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    content: '';
+  }
+
+  &::after {
+    left: 40px;
+  }
+}
+
+.portfolio--item {
+  position: relative;
+  margin: 50px 0;
+
+  & + .portfolio--item {
+    margin-top: 50px;
+
+    @media screen and (min-width: $viewport-medium) {
+      & {
+        margin-top: 100px;
+      }
+    }
+  }
+}
+
+.portfolio--item--desc {
+  padding: 2rem 0;
+
+  @media screen and (min-width: $viewport-medium) {
+    & {
+      width: 300px;
+      position: absolute;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      padding: 2rem;
+      background: #FEFEFE;
+      box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.50);
+    }
+  }
+
+  .portfolio--item__alternate & {
+    left: 0;
+    right: initial;
+  }
+
+  .portfolio--item--desc--subtitle {
+    /* DOCS WEBSITE: */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #B5A086;
+    margin: 0;
+  }
+
+  .portfolio--item--desc--title {
+    margin: 0;
+  }
+}
+
+.portfolio {
+  margin-top: 50px;
+
+  @media screen and (min-width: $viewport-medium) {
+    & {
+      margin-top: 100px;
+    }
+  }
+}
+
+.posts {
+  margin-top: 75px;
+
+  @media screen and (min-width: $viewport-medium) {
+    & {
+      margin-top: 150px;
+    }
+  }
+}

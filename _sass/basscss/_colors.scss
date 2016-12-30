@@ -40,6 +40,10 @@
   color: $orange;
 }
 
+.gold {
+  color: $gold;
+}
+
 .bg-dark-gray {
   background-color: $dark-gray;
 }
@@ -78,6 +82,15 @@
 
 .bg-orange {
   background-color: $orange;
+}
+
+.bg-gold {
+  background-color: $gold;
+}
+
+.bg-gold-gradient {
+  background: linear-gradient(135deg, rgba($gold, 0.5), rgba($dark-gold, 0.5));
+
 }
 
 .bg-darken-1 {

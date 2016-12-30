@@ -1,14 +1,55 @@
 ---
-layout: default
+layout: home
 ---
 
 <div class="home">
 
+  <div class="bio center lineheight-med bg-gold-gradient">
+    <div class="measure">
+      I'm Zack, a designer and developer living and working in Seattle, WA. Currently, I'm ½ of the <a href="http://burpeeoverbar.com">Burpee Over Bar</a> team and working on sitewide experiences for <a href="http://amazon.com">Amazon</a>.
+    </div>
+  </div>
+
+  <div class="portfolio">
+
+    <h2 class="h1 underlined">Selected Works</h2>
+
+    <div class="portfolio--item">
+      <div class="portfolio--item--browser">
+        <div class="portfolio--item--browser--buttons"></div>
+        <div class="portfolio--item--screenshot" style="background: url('/images/lodash.png') top center / cover no-repeat;"></div>
+      </div>
+      <div class="portfolio--item--desc">
+        <h4 class="portfolio--item--desc--subtitle">Docs Website</h4>
+        <h3 class="portfolio--item--desc--title h2 underlined">Lodash</h3>
+        <div class="portfolio--item--desc--body">
+          The most popular JavaScript utility on the planet needed a simple, consistent way to present it's documentation. I delivered a beautiful custom Jekyll theme and a custom generator to automatically create the documentation pages for each release from JSDoc.
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio--item portfolio--item__alternate">
+      <div class="portfolio--item--browser">
+        <div class="portfolio--item--browser--buttons"></div>
+        <div class="portfolio--item--screenshot" style="background: url('/images/burpeeoverbar.png') top center / cover no-repeat;"></div>
+      </div>
+      <div class="portfolio--item--desc">
+        <h4 class="portfolio--item--desc--subtitle">Consulting</h4>
+        <h3 class="portfolio--item--desc--title h2 underlined">Burpee Over Bar</h3>
+        <div class="portfolio--item--desc--body">
+          CrossFit affiliates need a custom designed website to reach new clients, manage memberships, and announce workouts. Burpee Over Bar builds tailored and performant websites for CrossFit gyms.
+        </div>
+      </div>
+    </div>
+
+  </div>
+
   <div class="posts">
+    <h2 class="h1 underlined">Recent posts</h2>
     {% for post in paginator.posts %}
       <div class="post py3">
         <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h2 class="post-title">{{ post.title }}</h2></a>
         <p class="post-summary">
           {% if post.summary %}
             {{ post.summary }}
