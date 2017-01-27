@@ -8,7 +8,7 @@ permalink: /about/
 
 ### Zack Hall
 
-I am a JavaScript developer, Microsoft engineer working on Edge, and organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
+I'm a designer and developer. I'm 1/2 of the [Burpee Over Bar](http://burpeeoverbar) team building beautiful web and mobile experiences for CrossFit. I'm an Amazon engineer working on the top 200 pixels of the retail site (sometimes known as the navigation bar). Formerly, I worked as an engineer on the Windows Store and Edge teams at Microsoft.
 
 ### Blog
 
