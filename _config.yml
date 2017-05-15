@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://zthall.com"
 
 # Google analytics
-google_analytics: UA-53548208-1
+google_analytics: UA-39957980-3
 
 # Optional features
 animated:           false
