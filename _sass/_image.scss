@@ -1,0 +1,25 @@
+.img-strip {
+  display: flex;
+  flex-flow: row wrap;
+
+  .col {
+    flex: auto;
+    width: 200px;
+    margin: .5vw 0;
+  }
+
+  .col + .col {
+    margin-left: .5vw;
+  }
+
+  .col img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.caption {
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 1em;
+  font-size: .7rem;
+}
