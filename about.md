@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Zack Hall and Vivian Andreeva in Paris, France](/images/zack_hall_notre_dame.png)
+![Zack Hall](/images/zackhall.png)
 
 ### Zack Hall
 
