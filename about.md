@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-![Zack Hall](/images/zackhall.png)
+![Zack Hall](/images/zackhall.jpg)
 
 ### Zack Hall
 
