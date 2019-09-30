@@ -8,7 +8,7 @@ permalink: /about/
 
 ### Zack Hall
 
-I am a JavaScript developer, Microsoft engineer working on Edge, and organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
+I am a JavaScript developer, UX designer, and an Amazon engineer working on Alexa. In the past, I've been a Microsoft engineer working on Edge and the Windows Store and an organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
 
 ### Blog
 
