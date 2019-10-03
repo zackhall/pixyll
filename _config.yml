@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://zthall.com"
 
 # Google analytics
-google_analytics: UA-53548208-1
+google_analytics: UA-39957980-3
 
 # Optional features
 animated:           false
@@ -50,9 +50,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     4
 sass:
   compressed: true
 gems:
   - jekyll-sitemap
-  - jekyll-paginate

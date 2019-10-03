@@ -9,3 +9,15 @@ a:active {
   color: $link-hover-color;
   text-decoration: none;
 }
+
+a {
+  span {
+    transition: all 400ms cubic-bezier(0.68, -0.1, 0.265, 1.55);
+  }
+
+  &:hover span,
+  &:focus span {
+    color: $dark-gold;
+    margin-left: 12px;
+  }
+}

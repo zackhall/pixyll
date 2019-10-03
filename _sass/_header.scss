@@ -9,6 +9,10 @@
   font-weight: 300;
 }
 
+.site-header.gold a {
+  color: $gold;
+}
+
 .site-header .site-title {
   font-size: $h2;
 }
@@ -27,6 +31,17 @@
   color: #444;
   opacity: 1;
   border-bottom: 2px solid #444;
+}
+
+.site-header.gold nav a {
+  color: $gold;
+
+  &:hover,
+  &:focus,
+  &:active {
+    color: $dark-gold;
+    border-bottom: 2px solid $dark-gold;
+  }
 }
 
 .site-nav a + a {
@@ -51,4 +66,17 @@
 .social-icons .left, .social-icons .right {
   text-align: center;
   float: none;
+}
+
+.site-header__macro {
+  background: url('/images/header.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+
+  @media screen and (min-width: $viewport-medium) {
+    & {
+      height: 750px;
+    }
+  }
 }

@@ -36,3 +36,20 @@
 .nowrap {
   white-space: nowrap;
 }
+
+.lineheight-med {
+  line-height: 2.2em;
+}
+
+.underlined {
+  padding: 0 0 20px;
+  line-height: 1.8em;
+
+  &:after {
+    content: '';
+    display: block;
+    width: 25%;
+    height: 5px;
+    background: #D2BA9C;
+  }
+}

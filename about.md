@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-![Zack Hall and Vivian Andreeva in Paris, France](/images/zack_hall_notre_dame.png)
+![Zack Hall](/images/zackhall.jpg)
 
 ### Zack Hall
 
-I am a JavaScript developer, UX designer, and an Amazon engineer working on Alexa. In the past, I've been a Microsoft engineer working on Edge and the Windows Store and an organizer for the Ionic Seattle [@IonicSeattle](http://twitter.com/IonicSeattle) meetup. 
+I'm a designer and developer. I'm 1/2 of the [Burpee Over Bar](http://burpeeoverbar) team building beautiful web and mobile experiences for CrossFit. I'm an Amazon engineer where I'm working the Alexa team. Formerly, I worked as an engineer on the Windows Store and Edge teams at Microsoft.
 
 ### Blog
 
-This is a blog focused mostly on web development and JavaScript. The theme for this blog is based on the [Pixyll](https://github.com/johnotander/pixyll) open source project from [John Otander](http://johnotander.com).
+This is a blog focused mostly on web and mobile design and development. The theme for this blog is based on the [Pixyll](https://github.com/johnotander/pixyll) open source project from [John Otander](http://johnotander.com).

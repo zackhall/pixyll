@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+  <div class="posts">
+    <h1 class="underlined">Blog</h2>
+    {% for post in site.posts %}
+      <div class="post py3">
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h2 class="post-title">{{ post.title }}</h2></a>
+        <p class="post-summary">
+          {% if post.summary %}
+            {{ post.summary }}
+          {% else %}
+            {{ post.excerpt }}
+          {% endif %}
+        </p>
+      </div>
+    {% endfor %}
+  </div>
