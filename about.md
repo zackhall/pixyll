@@ -8,7 +8,9 @@ permalink: /about/
 
 ### Zack Hall
 
-I'm a designer and developer. I'm 1/2 of the [Burpee Over Bar](http://burpeeoverbar) team building beautiful web and mobile experiences for CrossFit. I'm an Amazon engineer where I'm working the Alexa team. Formerly, I worked as an engineer on the Windows Store and Edge teams at Microsoft.
+I'm a designer and developer. I'm 1/2 of the [Burpee Over Bar](http://burpeeoverbar.com) team building beautiful web and mobile experiences for CrossFit. I'm an Amazon engineer where I'm working the Alexa team. Formerly, I worked as an engineer on the Windows Store and Edge teams at Microsoft.
+
+Outside the 8-hours a day in the office, I am also a freelance photographer. You can find my portfolio at [zthall.photos](https://zthall.photos).
 
 ### Blog
 
